@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_Weather_com.teamx.weather.cer",
+          "storePassword": "0000001BF59962207F6D32E26BCF6EDCC2F0E7EEB2153327DBF7F60FEC860EAD10E1AC2390CC8799943F74",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B1C37438419BE6057360C329C5261E45AEC8D13E9228836E7D09D4F58304B2A3536AB56FC3A34E8",
+          "profile": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_Weather_com.teamx.weather.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\admin\\.ohos\\config\\openharmony\\auto_ohos_default_Weather_com.teamx.weather.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

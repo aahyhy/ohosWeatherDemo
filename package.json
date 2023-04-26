@@ -1,0 +1,19 @@
+{
+	"license": "ISC",
+	"devDependencies": {},
+	"name": "weather",
+	"ohos": {
+		"org": "huawei",
+		"directoryLevel": "project",
+		"buildTool": "hvigor"
+	},
+	"description": "example description",
+	"repository": {},
+	"version": "1.0.0",
+	"dependencies": {
+		"@ohos/axios": "^1.0.4",
+		"@ohos/hvigor": "1.4.0",
+		"@ohos/hvigor-ohos-plugin": "1.4.0",
+		"@ohos/hypium": "1.0.3"
+	}
+}
